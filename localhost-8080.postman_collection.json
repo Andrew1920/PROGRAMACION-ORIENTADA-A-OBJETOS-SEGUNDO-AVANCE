@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "87bc69e1-aabd-468b-a9db-18277cafdfbf",
+		"name": "localhost:8080",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45900541",
+		"_collection_link": "https://andrewchavez.postman.co/workspace/24d633bc-394d-454a-89c4-7aae6a9deb58/collection/45900541-87bc69e1-aabd-468b-a9db-18277cafdfbf?action=share&source=collection_link&creator=45900541"
+	},
+	"item": [
+		{
+			"name": "/api/cart/31e8e4db-ab87-499b-87da-8d1df94b6a99",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/cart/31e8e4db-ab87-499b-87da-8d1df94b6a99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"cart",
+						"31e8e4db-ab87-499b-87da-8d1df94b6a99"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/cart/31e8e4db-ab87-499b-87da-8d1df94b6a99/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": \"4445e10b-fee5-4661-aa3d-d0878afa08c6\",\r\n    \"quantity\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/cart/31e8e4db-ab87-499b-87da-8d1df94b6a99/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"cart",
+						"31e8e4db-ab87-499b-87da-8d1df94b6a99",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/cart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/products/batch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Laptop Pro 14 pulgadas\",\r\n        \"description\": \"Potente laptop con chip M3, 16GB de RAM y 512GB SSD.\",\r\n        \"price\": 1899.99,\r\n        \"stock\": 15\r\n    },\r\n    {\r\n        \"name\": \"Teclado Mecánico K-800\",\r\n        \"description\": \"Teclado TKL con switches marrones y retroiluminación RGB.\",\r\n        \"price\": 125.50,\r\n        \"stock\": 45\r\n    },\r\n    {\r\n        \"name\": \"Mouse ErgoVertical MX\",\r\n        \"description\": \"Diseño ergonómico para reducir la tensión en la muñeca.\",\r\n        \"price\": 95.00,\r\n        \"stock\": 80\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/batch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"batch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
