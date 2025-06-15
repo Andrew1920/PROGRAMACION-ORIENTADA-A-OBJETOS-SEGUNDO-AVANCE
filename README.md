@@ -50,6 +50,7 @@ Este proyecto demuestra varios conceptos clave de la ingeniería de software mod
 ---
 
 ## 4. Estructura del Proyecto
+```
 /tienda
 ├── go.mod
 ├── go.sum
@@ -69,6 +70,7 @@ Este proyecto demuestra varios conceptos clave de la ingeniería de software mod
 │   └── memory.go
 └── /utils
 └── password.go
+```
 ## 5. Endpoints de la API
 
 | Método | Ruta                                  | Descripción                               |
