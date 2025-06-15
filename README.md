@@ -95,6 +95,8 @@ Este proyecto demuestra varios conceptos clave de la ingeniería de software mod
 #### Requisitos
 * Tener **Go**.
 * link : http://localhost:8080/
+* http://localhost:8080/api/products
+* 
 ## Pruebas con Postman
 Para la verificación y prueba de todos los endpoints de la API se utilizó la herramienta Postman.
 Se ha creado y adjuntado en el repositorio un archivo de Colección de Postman llamado localhost-8080.postman_collection.json. Este archivo contiene todas las peticiones (GET, POST, PUT, DELETE) pre-configuradas con sus URLs y cuerpos JSON de ejemplo
